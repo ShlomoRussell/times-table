@@ -1,4 +1,4 @@
-const os = require("os");
+import { EOL } from "os";
 
 function createTimesTable(cb) {
   const timesTable = [];
@@ -16,7 +16,7 @@ function createTimesTable(cb) {
 createTimesTable(function (timesTable) {
   const formatedTable = timesTable.reduce((p, c, i) => {
     if ((i + 1) % 12 === 1) {
-      return p + os.EOL + c;
+      return p + EOL + c;
     } else return `${p} ${c}`;
   });
   console.log(formatedTable);
