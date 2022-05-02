@@ -3,7 +3,7 @@
 
 Run ``node index.js`` in node js 
 
-or
+  or
 
 Open the `browser` folder in browser  
 
