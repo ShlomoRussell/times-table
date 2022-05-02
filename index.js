@@ -9,7 +9,6 @@ function createTimesTable(cb) {
       }
     }
   }
-  console.log(timesTable)
  cb(timesTable);
 }
 
